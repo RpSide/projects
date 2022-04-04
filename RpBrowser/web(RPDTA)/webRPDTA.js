@@ -9,7 +9,7 @@ fetch(url).then((r)=>{r.text().then((d)=>{CONTENT = d})})
   return CONTENT
 }
 
-let indexCode = getfile(currenturl+"/index.RpDTA")
+let indexCode = getfile(currenturl+"/index.RPDTA")
 let index = indexCode.replace("#","<").replace("!#",">")
 
 document.write(index)
