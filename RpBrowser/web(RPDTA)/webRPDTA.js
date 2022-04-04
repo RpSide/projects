@@ -3,13 +3,11 @@ var url = new URL(url_string);
 var currenturl = url.searchParams.get("site")
 var endofurl = url.searchParams.get("int")
 
-function getfile(url){
   let CONTENT
-fetch(url).then((r)=>{r.text().then((d)=>{CONTENT = d})})
-  return CONTENT
-}
+fetch(currenturl+"/index.RPDTA").then((r)=>{r.text().then((d)=>{CONTENT = d})})
 
-let indexCode = getfile(currenturl+"/index.RPDTA")
+
+let indexCode = CONTENT
 let index = indexCode.replace("#","<").replace("!#",">")
 
 document.write(index)
