@@ -7,7 +7,7 @@ fetch(currenturl+"index.RPDTA").then((r)=>{r.text().then((d)=>{
 
 CONTENT = d
 
-let index = CONTENT.replace("#","<").replace("!#",">")
+let index = CONTENT.replace("!#",">").replace("#","<")
 
 document.write(index)
 
