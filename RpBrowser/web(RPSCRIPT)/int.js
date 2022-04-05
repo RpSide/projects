@@ -5,7 +5,7 @@ var endofurl = url.searchParams.get("int")
 let CONTENT
 let index
 
-function getvals(furl){
+function getdata(furl){
     return fetch(furl',
     {
     	method: "GET",
@@ -20,12 +20,14 @@ function getvals(furl){
   
   getvals().then(response => console.log(response));
 
-fetch(currenturl+"index.RPDTA").then((r)=>{r.text().then((d)=>{
+CONTENT = getdata(currenturl+"index.RPDTA")
 
-CONTENT = d
+index = CONTENT.replaceAll("%INSERT @RPSCRIPT_RDOC",getdata(document.domain + "/side-projects/RPSCRIPT_RDOC.JS")).replaceAll("%INSERT @RPSCRIPT_NOTIFY",getdata(document.domain + "/side-projects/RPSCRIPT_NOTIFY.JS")).replaceAll("%INSERT @RSCRIPT_RPDTA",getdata(document.domain + "/side-projects/RPSCRIPT_RPDATA.JS"))
 
-index = CONTENT.replaceAll("!#",">").replaceAll("#","<")
+document.write(`
+<script>
 
-document.write(index)
+${index}
 
-})})
+</script>
+`)
