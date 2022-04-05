@@ -17,8 +17,6 @@ function getdata(furl){
     })
     .catch(error => console.warn(error));
   }
-  
-  getvals().then(response => console.log(response));
 
 CONTENT = getdata(currenturl+"index.RPDTA")
 
