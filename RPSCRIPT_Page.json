@@ -1,5 +1,5 @@
 {
-"doc": `
+"doc": "
 
 // DON'T REMOVE
 %INSERT @RPSCRIPT_RDOC // RDOC
@@ -17,6 +17,6 @@ RDTA.Display("onObject", "RPDTA-TST", RDTA_CODE)
 
 
 
-`
+"
 
 }
