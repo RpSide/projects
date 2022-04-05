@@ -1,4 +1,22 @@
 {
-"doc":
+"doc": `
+
+// DON'T REMOVE
+%INSERT @RPSCRIPT_RDOC // RDOC
+
+%INSERT @RSCRIPT_NOTIFY // RNOTE
+
+%INSERT @RSCRIPT_RPDTA // RDTA
+
+// CODE
+*pgTitle = RDoc.MKobject("title")
+*pgHeader = RDoc.MKobject("h1")
+*RDTA_CODE = RDTA.read("https://rpside.github.io/side-projects/index.RPDTA", "Application/Web(RPDTA)")
+
+RDTA.Display("onObject", "RPDTA-TST", RDTA_CODE)
+
+
+
+`
 
 }
