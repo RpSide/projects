@@ -5,7 +5,12 @@ var endofurl = url.searchParams.get("int")
 let CONTENT
 let index
 
-fetch(currenturl+"index.RPDTA").then((r)=>{r.text().then((d)=>{
+function getdata(urlData) {
+let data = fetch(urlData)).text()
+return data || "No Data"
+}
+
+fetch(currenturl+"index.RPSCRIPT").then((r)=>{r.text().then((d)=>{
 
 CONTENT = d
 
