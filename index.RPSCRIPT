@@ -1,0 +1,11 @@
+// DON'T REMOVE
+%INSERT @RPSCRIPT_RDOC // RDOC
+
+%INSERT @RSCRIPT_NOTIFY // RNOTE
+
+%INSER @RSCRIPT_RPDTA // RDTA
+
+// CODE
+*pgTitle = RDoc.MKobject("title")
+*pgHeader = RDoc.MKobject("h1")
+*RDTACODE = RDTA.read("")
