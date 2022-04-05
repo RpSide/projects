@@ -6,7 +6,7 @@ let CONTENT
 let index
 
 function getdata(furl){
-    return fetch(furl',
+    return fetch(furl,
     {
     	method: "GET",
     })
