@@ -7,7 +7,7 @@ let index
 
 let RSCRIPT_RPDTA
 // As with JSON, use the Fetch API & ES6
-fetch(document.domain+"/RPSCRIPT/RPSCRIPT_RPDTA")
+fetch(document.domain+"/RPSCRIPT/RPSCRIPT_RPDTA.js")
   .then(response => response.text())
   .then(data => {
   	// Do something with your data
