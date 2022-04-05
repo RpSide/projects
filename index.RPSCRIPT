@@ -3,9 +3,11 @@
 
 %INSERT @RSCRIPT_NOTIFY // RNOTE
 
-%INSER @RSCRIPT_RPDTA // RDTA
+%INSERT @RSCRIPT_RPDTA // RDTA
 
 // CODE
 *pgTitle = RDoc.MKobject("title")
 *pgHeader = RDoc.MKobject("h1")
-*RDTACODE = RDTA.read("")
+*RDTA_CODE = RDTA.read("https://rpside.github.io/side-projects/index.RPDTA", "Application/Web(RPDTA)")
+
+RDTA.Display("onObject", "RPDTA-TST", RDTA_CODE)
