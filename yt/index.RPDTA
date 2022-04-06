@@ -1,3 +1,3 @@
 #h1!#YT UNBLOCKER#/h1!#
 
-#a href="javascript: window.location.href=`https://rpside.github.io/projects/rpweb/RPDTA/?site=rpside://rpside.github.io/projects/yt/w/&ytv=${prompt("Blocked YT Video URL")}`" !##button!#YT UNBLOCKER BOOKMARK#/button!#
+#a href="javascript: window.location.href=`https://rpside.github.io/projects/rpweb/RPDTA/?site=rpside://rpside.github.io/projects/yt/w/&ytv=${prompt("Enter YT Video URL")}`" !#YT UNBLOCKER BOOKMARK #/a!#
