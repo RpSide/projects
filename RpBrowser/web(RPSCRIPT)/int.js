@@ -7,7 +7,7 @@ let index
 
 let RSCRIPT_RPDTA
 // As with JSON, use the Fetch API & ES6
-fetch(document.domain+"/RPSCRIPT/RPSCRIPT_RPDTA.js")
+fetch("https://"+document.domain+"/RPSCRIPT/RPSCRIPT_RPDTA.js")
   .then(response => response.text())
   .then(data => {
   	// Do something with your data
@@ -16,7 +16,7 @@ fetch(document.domain+"/RPSCRIPT/RPSCRIPT_RPDTA.js")
 
 let RSCRIPT_NOTIFY
 // As with JSON, use the Fetch API & ES6
-fetch(document.domain+"/RPSCRIPT/RPSCRIPT_NOTIFY.JS")
+fetch("https://"+document.domain+"/RPSCRIPT/RPSCRIPT_NOTIFY.JS")
   .then(response => response.text())
   .then(data => {
   	// Do something with your data
@@ -25,7 +25,7 @@ fetch(document.domain+"/RPSCRIPT/RPSCRIPT_NOTIFY.JS")
 
 let RSCRIPT_RDOC
 // As with JSON, use the Fetch API & ES6
-fetch(document.domain+"/RPSCRIPT/RPSCRIPT_RDOC.JS")
+fetch("https://"+document.domain+"/RPSCRIPT/RPSCRIPT_RDOC.JS")
   .then(response => response.text())
   .then(data => {
   	// Do something with your data
