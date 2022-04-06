@@ -5,31 +5,31 @@ var endofurl = url.searchParams.get("int")
 let CONTENT
 let index
 
-let RSCRIPT_RPDTA
+let RPSCRIPT_RPDTA
 // As with JSON, use the Fetch API & ES6
 fetch("https://"+document.domain+"/RPSCRIPT/RPSCRIPT_RPDTA.js")
   .then(response => response.text())
   .then(data => {
   	// Do something with your data
-  	RSCRIPT_RPDTA = data || "NO_DATA"
+  	RPSCRIPT_RPDTA = data || "NO_DATA"
   });
 
-let RSCRIPT_NOTIFY
+let RPSCRIPT_NOTIFY
 // As with JSON, use the Fetch API & ES6
 fetch("https://"+document.domain+"/RPSCRIPT/RPSCRIPT_NOTIFY.JS")
   .then(response => response.text())
   .then(data => {
   	// Do something with your data
-  	RSCRIPT_NOTIFY = data || "NO_DATA"
+  	RPSCRIPT_NOTIFY = data || "NO_DATA"
   });
 
-let RSCRIPT_RDOC
+let RPSCRIPT_RDOC
 // As with JSON, use the Fetch API & ES6
 fetch("https://"+document.domain+"/RPSCRIPT/RPSCRIPT_RDOC.JS")
   .then(response => response.text())
   .then(data => {
   	// Do something with your data
-  	RSCRIPT_RDOC = data || "NO_DATA"
+  	RPSCRIPT_RDOC = data || "NO_DATA"
   });
 
 
