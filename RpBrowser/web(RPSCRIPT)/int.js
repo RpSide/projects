@@ -11,7 +11,7 @@ fetch(document.domain+"/RPSCRIPT/RPSCRIPT_RPDTA.js")
   .then(response => response.text())
   .then(data => {
   	// Do something with your data
-  	data12 = data
+  	RSCRIPT_RPDTA = data || "NO_DATA"
   });
 
 let RSCRIPT_NOTIFY
@@ -20,7 +20,7 @@ fetch(document.domain+"/RPSCRIPT/RPSCRIPT_NOTIFY.JS")
   .then(response => response.text())
   .then(data => {
   	// Do something with your data
-  	data12 = data
+  	RSCRIPT_NOTIFY = data || "NO_DATA"
   });
 
 let RSCRIPT_RDOC
@@ -29,14 +29,9 @@ fetch(document.domain+"/RPSCRIPT/RPSCRIPT_RDOC.JS")
   .then(response => response.text())
   .then(data => {
   	// Do something with your data
-  	data12 = data
+  	RSCRIPT_RDOC = data || "NO_DATA"
   });
 
-
-function getdata(urlData) {
-let data = fetch(urlData)).text()
-return data || "No Data"
-}
 
 fetch(currenturl+"index.RPSCRIPT").then((r)=>{r.text().then((d)=>{
 
