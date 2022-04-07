@@ -1,3 +1,3 @@
 #h1!#YT UNBLOCKER#/h1!#
 
-#a onclick="window.location.href=`https://rpside.github.io/projects/rpweb/RPDTA/?site=rpside://rpside.github.io/projects/yt/w/&ytv=${prompt("Enter YT Video URL")}`" !#YT UNBLOCKER BOOKMARK #/a!#
+#a href="javascript:(function()%7Bdocument.write('%3Cstyle%3Ehtml%7Boverflow%3A%20hidden%3B%20background-color%3A%20black%3B%7D%3C%2Fstyle%3E%20%3Ciframe%20id%3D%22e%22%3E%3C%2Fiframe%3E')%2Cdocument.getElementById(%22e%22).setAttribute(%22src%22%2Cprompt(%22Enter%20YT%20Video%20URL%22%2C%22https%3A%2F%2Fwww.youtu.be%2FSyYaQ5Gn6Ow%22).replaceAll(%22https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D%22%2C%22https%3A%2F%2Fwww.youtube-nocookie.com%2Fembed%2F%22).replaceAll(%22https%3A%2F%2Fwww.youtu.be%2F%22%2C%22https%3A%2F%2Fwww.youtube-nocookie.com%2Fembed%2F%22))%2Cdocument.getElementById(%22e%22).setAttribute(%22style%22%2C%22width%3A%20100%25%3B%20height%3A%20100%25%3B%20border%3A0%3B%22)%7D)()" !#YT UNBLOCKER BOOKMARK #/a!#
