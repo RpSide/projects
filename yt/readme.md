@@ -9,7 +9,8 @@
 ##### ccisd.net / CCISD
 
 #### More Cloak Skins Coming Soon
-
+ 
+##### Invisible | Pin tab to make the cloaking more effective
 ##### itsLearning.com / Its Learning
 ##### skyward.com / Skyward Grade Checking
 ##### discord.com / Discord
