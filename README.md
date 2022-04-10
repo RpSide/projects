@@ -16,3 +16,10 @@
 #### [Replacord Lightning]()
 
 #### [Replacord Lightning Online]()
+
+
+Bookmark Maker
+https://jscompress.com/
+
+https://mrcoles.com/bookmarklet/
+
