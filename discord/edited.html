@@ -16,3 +16,18 @@
 New ‫   text
 
 </div></h3>
+
+<script>
+document.getElementsByTagName("button")[0].onclick = ()=>{
+
+var e = document.getElementsByTagName('textarea')[0].value 
+ document.getElementsByTagName('div')[0].innerHTML = e.replace('(edited)','' )
+
+ /* Get the text field */
+  var copyText = document.getElementsByTagName('div')[0];
+   /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.innerHTML);
+
+
+}
+</script>
